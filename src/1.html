@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+<!-- 一、script有三种嵌入方式-->
+    <!-- 1. 将JS代码写在html行内   -->
+    <input type="button" value="这是一个按钮" onclick="alert('我写在html行内')">
+    <!-- 2. 将JS代码写在<script>标签内  -->
+    <script>
+        alert('我写在script标签内')
+    </script>
+    <!-- 3. 将外部的JS文件引入后执行   -->
+    <script src="1.js">
+        <!--这种引入外部JS文件方式,在此位置写的代码都不会执行,但是不会报错   -->
+    </script>
+<!--  二、声明变量  -->
+    <script>
+        //声明变量
+        var age = 20 , height = 178;
+    /*  - JS中变量严格区分大小写
+        - 重复声明同一变量时不会报错，而是替换前面的声明
+        - 声明变量时不需要指定变量类型   */
+    </script>
+
+
+</body>
+</html>
